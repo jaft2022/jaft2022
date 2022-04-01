@@ -29,6 +29,7 @@ header{
 }
 header h1, h4{
     color: #ffeb3b;
+    
     font-size: 3em;
     text-shadow: -2px 8px 0px #388e3c;
 }
