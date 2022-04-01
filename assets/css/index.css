@@ -27,6 +27,14 @@ header{
     z-index: 20;
     text-align: center;
 }
+header h1, h4{
+    color: #ffeb3b;
+    font-size: 3em;
+    text-shadow: -2px 8px 0px #388e3c;
+}
+header > h4{
+    font-size: 2em;
+}
 .container__slime{
     background:url('../img/slime_green.png');
     background-repeat: no-repeat;
