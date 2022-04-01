@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&family=Rubik+Wet+Paint&display=swap');
+*{
+    margin: 0;
+}
+html{
+    font-family: 'Rock 3D', cursive;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+body{
+    background-color: rgb(93 199 50);;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(93 199 50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition:3s ease-out;
+    z-index: 100;
+    /* transition:3s cubic-bezier(1, 0, 0, 1); */
+
+}
+
+.title{
+    z-index: 20;
+    text-align: center;
+}
+.container__slime{
+    background:url('../img/slime_green.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+.image__profile{
+    border:4px solid green;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+}
